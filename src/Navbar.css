@@ -76,5 +76,12 @@
 @media (min-width: 0px) and (max-width: 359px){
   .navbar {
     font-size: 60%;
+   
+    }
+
+    .nav-links {
+      color: rgb(196, 164, 164);
+      text-decoration: none;
+      padding: 0.5rem .3rem;
     }
 } 
