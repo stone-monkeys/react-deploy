@@ -1,5 +1,7 @@
 .navbar {
   background-color:rgb(26, 37, 73);
+  color: rgb(196, 164, 164);
+
     display: flex;
     justify-content: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,7 +19,7 @@
     }
   
   .navbar-logo {
-    color: #fff;
+    color: rgb(196, 164, 164);
     justify-self: start;
     margin-left: 1%;
     cursor: pointer;
@@ -39,7 +41,7 @@
   }
   
   .nav-links {
-    color: white;
+    color: rgb(196, 164, 164);
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
@@ -66,14 +68,9 @@
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
 @media (min-width: 360px) and (max-width: 479px){
   .navbar {
-    font-size: 70%;
+    font-size: 100%;
       
     }
 } 
 
-@media (min-width: 0px) and (max-width: 359px){
-  .navbar {
-    font-size: 30%;
-      
-    }
-} 
+ 
