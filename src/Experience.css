@@ -180,6 +180,13 @@
       border-radius: 5%;
    }
 
+   #textOne{
+      position: relative;
+      font-size: 80%;
+      line-height: 150%;
+      top:15%;
+   }
+
    #item{
       position: relative;
       right:20%;
