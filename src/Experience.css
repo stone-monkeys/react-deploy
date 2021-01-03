@@ -160,10 +160,11 @@
  /********* SUPER EXTRA SMALL DEVICES ONLY ******/
  @media (min-width: 0px) and (max-width: 479px){
    .bubbles{
-      height:15%;
+      height:18%;
       width:25%;
       letter-spacing:0rem;
       font-size: 53%;
+      padding: .2%;
       line-height: 130%;
    }
    
@@ -183,8 +184,8 @@
    #textOne{
       position: relative;
       font-size: 80%;
-      line-height: 130%;
-      top:2%;
+      line-height: 150%;
+      top:8%;
    }
 
    #item{
