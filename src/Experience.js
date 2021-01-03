@@ -207,6 +207,7 @@ class Experience extends Component {
                     
             </ul>
 
+            <div><p id="mes">Click On A Bubble To Find Out More</p></div>
            </div>
         );
     }
