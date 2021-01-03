@@ -1,17 +1,24 @@
 .bubbles{
    position: fixed;
+   display: grid;
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
    height:24%;
    width:24%;
    border-radius: 5%;
    list-style-type: none;
-   letter-spacing:.3rem;
+   letter-spacing:.1rem;
    font-size: 150%;
    text-align: center;
    line-height: 140%;
-
 }
+
+/* position: relative;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    left:15%;
+    grid-gap:5%; */
 
 #textOne{
    position: relative;
@@ -19,33 +26,33 @@
 }
 
 #pone{
-   top:12%;
+   top:15%;
    left:2%;
 }
 
 #ptwo{
-   top:39%;
+   top:42%;
    left:2%;
 }
 
 #pthree{
-   top:66%;
+   top:69%;
    left:2%;
 }
 
 #pfour{
-   top:12%;
+   top:15%;
    left:40%;
 }
 
 #pfive{
    left:40%;
-   top:39%;
+   top:42%;
 }
 
 #psix{
    left:40%;
-   top:66%;
+   top:69%;
 }
 
 
@@ -53,14 +60,15 @@
    position: relative;
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
-   font-size: 2em;
-   letter-spacing:.3rem;
+   list-style-type: none;
+   letter-spacing:0.1rem;
    top:50px;
    padding:1%;
    width:25%;
    left: 70%; 
    border-radius: 5%;
-}
+}      
+      
 
 @media (min-width: 1200px) and (max-width: 2400px) {
    .bubbles{
@@ -84,7 +92,7 @@
    #myList{
       position: relative;
       
-      font-size: 120%;
+      font-size: 100%;
       list-style-type: none;
       letter-spacing:0rem;
       top:50px;
@@ -107,7 +115,17 @@
    }
 
    #myList{
-      font-size: 1em;
+      position: relative;
+      color: rgb(196, 164, 164);
+      background-color:rgb(26, 37, 73);
+      font-size: 63%;
+      list-style-type: none;
+      letter-spacing:0rem;
+      top:50px;
+      padding:1%;
+      width:30%;
+      left: 65%; 
+      border-radius: 5%;
    }
  
  }
@@ -127,7 +145,7 @@
       position: relative;
       color: rgb(196, 164, 164);
       background-color:rgb(26, 37, 73);
-      font-size: 43%;
+      font-size: 53%;
       list-style-type: none;
       letter-spacing:0rem;
       top:50px;
@@ -142,25 +160,61 @@
  /********* SUPER EXTRA SMALL DEVICES ONLY ******/
  @media (min-width: 0px) and (max-width: 479px){
    .bubbles{
-      height:20%;
+      height:15%;
       width:25%;
       letter-spacing:0rem;
-      font-size: 43%;
+      font-size: 53%;
       line-height: 130%;
    }
    
    #myList{
       position: relative;
-      color: rgb(196, 164, 164);
-      background-color:rgb(26, 37, 73);
-      font-size: 43%;
-      list-style-type: none;
-      letter-spacing:0rem;
+      left:54%;
       top:50px;
+      font-size: 53%;
+      list-style-type:circle;
+      letter-spacing:0rem;
       padding:1%;
-      width:30%;
-      left: 65%; 
+      width:45%;
+     
       border-radius: 5%;
    }
+
+   #item{
+      position: relative;
+      right:20%;
+   }
+   
+   #ptwo{
+      top:35%;
+   }
+   
+   #pthree{
+      top:55%;
+   }
+   
+   #pfour{
+      left:32%;
+   }
+   
+   #pfive{
+      left:32%;
+      top:35%;
+   }
+   
+   #psix{
+      left:32%;
+      top:55%;
+   }
+   
+   /* font-size: 2em;
+   letter-spacing:.3rem;
+   top:50px;
+   padding:1%;
+   width:25%;
+   left: 70%; 
+   border-radius: 5%; */ 
+
+   
  } 
 
