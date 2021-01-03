@@ -1,15 +1,44 @@
-import logo from './logo.svg';
-import profileImage from './img/Me_Two.jpg';
+import React, { Component } from 'react';
 import './App.css';
+import Home from './Home.js';
+import Dropdown from './Navbar.js'
+import Navbar from './Navbar.js';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import initFontAwesome from "./initFontAwesome"; 
 
-function App() {
-  return (
-    <div className="App">
-      <h1>My React App</h1>
-      <h2>Author: Derry Bradley</h2>
-      <img src={profileImage} alt="profile-image"/>
-    </div>
-  );
+initFontAwesome();
+
+class App extends Component {
+  render() {
+    return (
+
+      <Router>
+            <div className="app">
+            <Navbar></Navbar>
+              <Route path="/" exact strict render={
+          () => {
+            return (
+            <div className="homePage">
+            
+             <Home></Home>
+              
+              
+
+         
+              
+           
+
+            </div>);
+          }
+        }/>
+        
+            </div>
+        
+      </Router>
+
+    );
+  }
 }
 
 export default App;
