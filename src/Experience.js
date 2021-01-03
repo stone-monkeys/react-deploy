@@ -15,7 +15,8 @@ class Experience extends Component {
       isClickedThree:false,
       isClickedFour:false,
       isClickedFive:false,
-      isClickedSix:false
+      isClickedSix:false,
+      isClickedSeven:false,
     };
   }
 
@@ -38,6 +39,9 @@ class Experience extends Component {
 
     if(id=="psix")
     this.setState(this.toggleClickStateSix);
+
+    if(id=="pseven")
+    this.setState(this.toggleClickStateSeven);
   }
   
   toggleClickState(state) {
@@ -73,6 +77,11 @@ class Experience extends Component {
   toggleClickStateSix(state) {
     return {
       isClickedSix: !state.isClickedSix,
+    };
+  }
+  toggleClickStateSeven(state) {
+    return {
+      isClickedSeven: !state.isClickedSeven,
     };
   }
 
@@ -208,7 +217,17 @@ class Experience extends Component {
             </ul>
 
             <div><p id="mes">Click On A Bubble To Find Out More</p></div>
-            <div><p id="mes2">Licenses & Certifications </p></div>
+            <div id="pseven" onClick={this.handleClick}><p id="mes2">Licenses & Certifications </p></div>
+            {
+                          this.state.isClickedSeven &&
+                          <div id="myListCerts"> 
+                              <ul>
+                                  <li id="item">Oracle Certified Associate, Java SE 8 Programmer</li>
+                                  <li id="item">AWS Certified Cloud Practitioner</li>
+                              </ul> 
+                              <b>TAP AGAIN TO CLOSE</b>     
+                          </div>
+                        }
            </div>
         );
     }
