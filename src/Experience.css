@@ -190,7 +190,7 @@
  /********* SUPER EXTRA SMALL DEVICES ONLY ******/
  @media (min-width: 0px) and (max-width: 479px){
    .bubbles{
-      height:12%;
+      height:14%;
       width:25%;
       letter-spacing:0rem;
       font-size: 53%;
