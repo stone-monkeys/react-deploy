@@ -28,6 +28,20 @@
    border-radius:20% ;
 }
 
+#mes2{
+   position: fixed;
+   left:27%;
+   top:65%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(196, 164, 164);
+   font-size: 150%;
+   background-color:rgb(26, 37, 73);
+   width:10%;
+   text-align: center;
+   padding :1%;
+   border-radius:20% ;
+}
+
 #textOne{
    position: relative;
    top:15%;
@@ -83,6 +97,9 @@
    .bubbles{
       font-size: 120%;
    }  
+   #mes2{
+      font-size: 100%;;
+   }
  }
 
 
@@ -116,6 +133,12 @@
       font-size: 120%;
       width:8%;
    }
+
+   #mes2{
+      left:28.5%;
+      font-size: 110%;
+      width:9%;
+   }
  }
  
  /********** Small devices only **********/
@@ -147,6 +170,13 @@
       left:28.5%;
       font-size: 110%;
       width:8%;
+   }
+
+   #mes2{
+      top:72%;
+      left:27%;
+      font-size: 90%;
+      width:11%;
    }
  
  }
@@ -184,7 +214,13 @@
       width:19%;
       height:6%;
    }
- 
+   
+   #mes2{
+      top:43%;
+      left:27%;
+      font-size: 60%;
+      width:11%;
+   }
  }
  
  /********* SUPER EXTRA SMALL DEVICES ONLY ******/
@@ -245,6 +281,13 @@
    }
    
    #mes{
+      top:79%;
+      left:2%;
+      font-size: 105%;
+      width:50%;
+   }
+
+   #mes2{
       top:70%;
       left:2%;
       font-size: 105%;
