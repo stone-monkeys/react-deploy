@@ -68,7 +68,7 @@
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
 @media (min-width: 360px) and (max-width: 479px){
   .navbar {
-    font-size: 100%;
+    font-size: 80%;
       
     }
 } 
