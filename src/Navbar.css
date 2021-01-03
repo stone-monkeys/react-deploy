@@ -2,6 +2,7 @@
   background-color:rgb(26, 37, 73);
     display: flex;
     justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
     font-size: 180%;
     padding-bottom: .3%;

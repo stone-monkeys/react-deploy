@@ -204,7 +204,10 @@ class Experience extends Component {
                               <b>TAP AGAIN TO CLOSE</b>     
                           </div>
                         }
+                    
             </ul>
+
+            <div><p id="mes">Click On A Bubble To Find Out More</p></div>
            </div>
         );
     }

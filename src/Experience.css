@@ -6,6 +6,7 @@
    height:24%;
    width:24%;
    border-radius: 5%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    list-style-type: none;
    letter-spacing:.1rem;
    font-size: 150%;
@@ -13,12 +14,19 @@
    line-height: 140%;
 }
 
-/* position: relative;
-    display: grid;
-    width: 80%;
-    grid-template-columns: repeat(2, 1fr);
-    left:15%;
-    grid-gap:5%; */
+#mes{
+   position: fixed;
+   left:27%;
+   top:30%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(196, 164, 164);
+   font-size: 150%;
+   background-color: #31649b;
+   width:10%;
+   text-align: center;
+   padding :1%;
+   border-radius:20% ;
+}
 
 #textOne{
    position: relative;
@@ -61,6 +69,7 @@
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
    list-style-type: none;
+   font-size: 100%;
    letter-spacing:0.1rem;
    top:50px;
    padding:1%;
@@ -101,6 +110,12 @@
       left: 70%; 
       border-radius: 5%;
    }
+
+   #mes{
+      left:28.5%;
+      font-size: 120%;
+      width:8%;
+   }
  }
  
  /********** Small devices only **********/
@@ -126,6 +141,12 @@
       width:30%;
       left: 65%; 
       border-radius: 5%;
+   }
+
+   #mes{
+      left:28.5%;
+      font-size: 110%;
+      width:8%;
    }
  
  }
@@ -154,6 +175,15 @@
       left: 65%; 
       border-radius: 5%;
    }
+
+   #mes{
+      top:10%;
+      left:24%;
+      font-size: 80%;
+      line-height: 110%;
+      width:19%;
+      height:6%;
+   }
  
  }
  
@@ -177,7 +207,6 @@
       letter-spacing:0rem;
       padding:1%;
       width:45%;
-     
       border-radius: 5%;
    }
 
@@ -215,13 +244,12 @@
       top:55%;
    }
    
-   /* font-size: 2em;
-   letter-spacing:.3rem;
-   top:50px;
-   padding:1%;
-   width:25%;
-   left: 70%; 
-   border-radius: 5%; */ 
+   #mes{
+      top:70%;
+      left:2%;
+      font-size: 105%;
+      width:50%;
+   }
 
    
  } 
