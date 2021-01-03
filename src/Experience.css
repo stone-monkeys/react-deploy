@@ -213,8 +213,8 @@
    #textOne{
       position: relative;
       font-size: 80%;
-      line-height: 120%;
-      top:0%;
+      line-height: 100%;
+      top:-2%;
    }
 
    #item{
