@@ -41,7 +41,7 @@ body {
 }
 
   /********* SUPER EXTRA SMALL DEVICES ONLY ******/
-  @media (min-width: 0px) and (max-width: 479px){
+  @media (min-width: 0px) and (max-width: 700px){
     #profile-photo{
      margin-top: 35%;  
     }
