@@ -26,7 +26,7 @@
     opacity: .9;
     font-size: 7em;
     position: relative;
-    right:3%;
+   
     overflow:auto;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -85,12 +85,12 @@
 @media (min-width: 0px) and (max-width: 479px){
   #profile-photo{
     position: relative;
-    left:20%;
+    left:17%;
     margin-top: 35%;  
   }
 
 #name, #occupation{
-   font-size: 3em; 
+   font-size: 2em; 
   }
   
 }
