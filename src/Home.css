@@ -40,3 +40,20 @@ body {
   color:gold
 }
 
+  /********* SUPER EXTRA SMALL DEVICES ONLY ******/
+  @media (min-width: 0px) and (max-width: 479px){
+    #profile-photo{
+     margin-top: 35%;  
+    }
+
+    #name, #occupation{
+     
+      font-size:9vw ; 
+      
+      
+    }
+  
+ 
+    
+  }
+
