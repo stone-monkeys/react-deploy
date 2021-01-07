@@ -20,6 +20,26 @@ body {
     font-size: 1.7vh;
 }
 
+/********* SUPER EXTRA SMALL DEVICES ONLY ******/
+@media (min-width: 0px) and (max-width: 700px){
+    .aboutMe{
+        margin: auto;
+        width: 70vmin;
+        height: 100vmin;
+        color: rgb(196, 164, 164);
+        margin-top: 25%;
+        background-color:rgb(26, 37, 73);
+        padding: 3%;
+        border-radius: 5%;
+    }
+
+    #pone{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.3vh;
+    }
+    
+  }
+
 
 
 
