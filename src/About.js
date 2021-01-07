@@ -22,14 +22,14 @@ class About extends Component {
                             As an Under-Grad, I studied Geography(Urbanization) & Economics at Maynooth University.
                         </p>
                             
-                        <p> 
+                        <p id="pone"> 
                             Here I developed a strong interest of the application of technology in the urban realm, 
                             in particular its use in solving human-centric problems. 
                             My thesis sought to identify the extent in which digital platforms can be used in cities in regard to optimising the use of space by enabling the 
                             efficient use of idle assets.
                         </p>
 
-                        <p id="ptwo">
+                        <p id="pone">
                             After graduating from university in 2018, I took a gap year and moved back to Toronto 
                             (I also studied there for a year in 2016/17). As planned, I then returned to Ireland to undertake a post-grad in 
                             Software Development. Throughout this I got some work experience with a Tech-Ops team where
@@ -38,7 +38,7 @@ class About extends Component {
                             Here, I work with cutting edge technology on exciting projects 😄. Technolgies include Kubernetes & GoLang
                         </p>
                         
-                        <p> 
+                        <p id="pone"> 
                             I am very passionate about systems of interrelated devices that have the ability to transfer data over a network with no human intervention ie - IoT.
                             I am also very interested in learning and applying how The Cloud can pave the way for this data to travel.
                          </p>
