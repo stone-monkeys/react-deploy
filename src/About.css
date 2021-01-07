@@ -21,8 +21,8 @@ body {
 @media (min-width: 0px) and (max-width: 560px){
     .aboutMe{
         margin: auto;
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 1%;
         color: rgb(196, 164, 164);
         margin-top: 5%;
         background-color:rgb(26, 37, 73);
