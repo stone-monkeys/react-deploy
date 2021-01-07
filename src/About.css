@@ -13,31 +13,24 @@ body {
     background-color:rgb(26, 37, 73);
     padding: 1%;
     border-radius: 5%;
-}
-
-#pone{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.7vh;
 }
 
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
-@media (min-width: 0px) and (max-width: 700px){
+@media (min-width: 0px) and (max-width: 560px){
     .aboutMe{
         margin: auto;
-        width: 70vmin;
-        height: 100vmin;
+        width: 50%;
+        height: 50%;
         color: rgb(196, 164, 164);
-        margin-top: 25%;
+        margin-top: 5%;
         background-color:rgb(26, 37, 73);
         padding: 3%;
         border-radius: 5%;
-    }
-
-    #pone{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 1.3vh;
-    }
-    
+        font-size: 1.7vh;
+    }    
   }
 
 
