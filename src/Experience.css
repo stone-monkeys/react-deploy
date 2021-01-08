@@ -66,9 +66,9 @@ body {
    }
 
    #myList{
-      left:20%;
+      left:23%;
       top:65%;
-      font-size: 80%;
+      font-size: 2vw;
       width: 50vmin;
       height: 60vmin;
       color: rgb(196, 164, 164);
@@ -84,7 +84,7 @@ body {
       
       left:20%;
       top:80%;
-      font-size: 80%;
+       font-size: 2vw;
       width: 50vmin;
       height: 60vmin;
       color: rgb(196, 164, 164);
