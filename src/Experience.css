@@ -1,315 +1,55 @@
-.bubbles{
-   position: fixed;
+.gallery {
+   position: absolute;
+   left:10%;
+   top:20%;
    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 5% 10%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+#bubbles, #bubblestwo{
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
-   height:24%;
-   width:24%;
+   width: 22vmin;
+   height: 22vmin;
    border-radius: 5%;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    list-style-type: none;
-   letter-spacing:.1rem;
-   font-size: 150%;
-   text-align: center;
-   line-height: 140%;
+   padding:2%;
+
 }
 
-#mes{
-   position: fixed;
-   left:27%;
-   top:30%;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   color: rgb(196, 164, 164);
-   font-size: 150%;
-   background-color: #31649b;
-   width:10%;
+#bubblestwo{
+   position: relative;
+   left:60%;
+   border-radius: 50%;
    text-align: center;
-   padding :1%;
-   border-radius:20% ;
-}
-
-#mes2{
-   position: fixed;
-   left:27%;
-   top:65%;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   color: rgb(196, 164, 164);
-   font-size: 150%;
-   background-color:rgb(26, 37, 73);
-   width:10%;
-   text-align: center;
-   padding :1%;
-   border-radius:20% ;
+   
 }
 
 #textOne{
+   font-size:1vw ; 
+    text-align: center;
+}
+
+#textTwo{
    position: relative;
-   top:15%;
-}
-
-#pone{
-   top:15%;
-   left:2%;
-}
-
-#ptwo{
-   top:42%;
-   left:2%;
-}
-
-#pthree{
-   top:69%;
-   left:2%;
-}
-
-#pfour{
-   top:15%;
-   left:40%;
-}
-
-#pfive{
-   left:40%;
-   top:42%;
-}
-
-#psix{
-   left:40%;
-   top:69%;
+   top:30%;
+   font-size:1.2vw ;
 }
 
 
-#myList, #myListCerts{
-   position: relative;
-   color: rgb(196, 164, 164);
-   background-color:rgb(26, 37, 73);
-   list-style-type: none;
-   font-size: 100%;
-   letter-spacing:0.1rem;
-   top:50px;
-   padding:1%;
-   width:25%;
-   left: 70%; 
-   border-radius: 5%;
-}    
-
-#myListCerts{
-   text-transform: uppercase;
-}    
-      
-
-@media (min-width: 1200px) and (max-width: 2400px) {
-   .bubbles{
-      font-size: 120%;
-   }  
-   #mes2{
-      font-size: 100%;;
+/********* SUPER EXTRA SMALL DEVICES ONLY ******/
+@media (min-width: 0px) and (max-width: 700px){
+   #textOne, #textTwo{
+      font-size:1.6vw ; 
    }
- }
-
+}
+   
 
  
- /********** Medium devices only **********/
- @media (min-width: 992px) and (max-width: 1199px) {
-   .bubbles{
-      margin-top: 10%;
-      height:20%;
-      width:25%;
-      letter-spacing:0rem;
-      font-size: 110%;
-     
-   }
-
-   #myList{
-      position: relative;
-      
-      font-size: 100%;
-      list-style-type: none;
-      letter-spacing:0rem;
-      top:50px;
-      padding:1%;
-      width:25%;
-      left: 70%; 
-      border-radius: 5%;
-   }
-
-   #mes{
-      left:28.5%;
-      font-size: 120%;
-      width:8%;
-   }
-
-   #mes2{
-      left:28.5%;
-      font-size: 110%;
-      width:9%;
-   }
- }
  
- /********** Small devices only **********/
- @media (min-width: 768px) and (max-width: 991px) {
-   .bubbles{
-      margin-top: 10%;
-      height:20%;
-      width:25%;
-      letter-spacing:0rem;
-      font-size: 80%;
-     
-   }
 
-   #myList{
-      position: relative;
-      color: rgb(196, 164, 164);
-      background-color:rgb(26, 37, 73);
-      font-size: 63%;
-      list-style-type: none;
-      letter-spacing:0rem;
-      top:50px;
-      padding:1%;
-      width:30%;
-      left: 65%; 
-      border-radius: 5%;
-   }
 
-   #mes{
-      left:28.5%;
-      font-size: 110%;
-      width:8%;
-   }
-
-   #mes2{
-      top:72%;
-      left:27%;
-      font-size: 90%;
-      width:11%;
-   }
- 
- }
- 
- /********** Extra small devices only **********/
- @media (min-width: 480px) and (max-width: 767px) {
-   .bubbles{
-      margin-top: 10%;
-      height:20%;
-      width:25%;
-      letter-spacing:0rem;
-      font-size: 60%;
-     
-   }
-
-   #myList{
-      position: relative;
-      color: rgb(196, 164, 164);
-      background-color:rgb(26, 37, 73);
-      font-size: 53%;
-      list-style-type: none;
-      letter-spacing:0rem;
-      top:50px;
-      padding:1%;
-      width:30%;
-      left: 65%; 
-      border-radius: 5%;
-   }
-
-   #mes{
-      top:10%;
-      left:24%;
-      font-size: 80%;
-      line-height: 110%;
-      width:19%;
-      height:6%;
-   }
-   
-   #mes2{
-      top:43%;
-      left:27%;
-      font-size: 60%;
-      width:11%;
-   }
- }
- 
- /********* SUPER EXTRA SMALL DEVICES ONLY ******/
- @media (min-width: 0px) and (max-width: 479px){
-   .bubbles{
-      height:14%;
-      width:25%;
-      letter-spacing:0rem;
-      font-size: 53%;
-      padding: .2%;
-      line-height: 130%;
-   }
-   
-   #myList{
-      position: relative;
-      left:54%;
-      top:50px;
-      font-size: 53%;
-      list-style-type:circle;
-      letter-spacing:0rem;
-      padding:1%;
-      width:45%;
-      border-radius: 5%;
-   }
-
-   #textOne{
-      position: relative;
-      font-size: 80%;
-      line-height: 100%;
-      top:-2%;
-   }
-
-   #item{
-      position: relative;
-      right:20%;
-   }
-   
-   #ptwo{
-      top:35%;
-   }
-   
-   #pthree{
-      top:55%;
-   }
-   
-   #pfour{
-      left:32%;
-   }
-   
-   #pfive{
-      left:32%;
-      top:35%;
-   }
-   
-   #psix{
-      left:32%;
-      top:55%;
-   }
-   
-   #mes{
-      top:81%;
-      left:2%;
-      font-size: 105%;
-      width:50%;
-   }
-
-   #mes2{
-      top:70%;
-      left:2%;
-      font-size: 105%;
-      width:50%;
-   }
-
-   #myListCerts{
-      position: relative;
-      left:64%;
-      top:50px;
-      font-size: 53%;
-      list-style-type:circle;
-      letter-spacing:0rem;
-      padding:1%;
-      width:33%;
-      border-radius: 5%;
-   } 
-
-   
- } 
 
