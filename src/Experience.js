@@ -92,27 +92,56 @@ class Experience extends Component {
         return (
            <div className="app">
               <div className="gallery">
-                <div id="bubbles">
+                <div className="bubbles" id="pone"
+                  onClick={this.handleClick}
+                  onMouseLeave={this.museLeave}>
                   <p id="textOne">Software Engineer <br/><br/>Fidelity Investments<br/><br/> August 2020 - Present</p>
                 </div>
+                {
+                                  this.state.isClicked && 
+                                  <div id="myList"> 
+                                 I am currently participating in Fidelity Investments Leap Software Engineering Track.
+                                  <br/>Training in this track includes: 
+                                  <ul>
+                                      <li id="item">Object Oriented Analysis and Design</li>
+                                      <li id="item">Dynamic Web Development with Angular</li>
+                                      <li id="item">Git/Stash Training</li>
+                                      <li id="item">Java, SQLPL, SQL, JDBC</li>
+                                      <li id="item">Relational and NoSQL DB Training</li>
+                                      <li id="item">Mastering Spring and MyBatis</li>
+                                      <li id="item">Restful Services w/ Java</li>
+                                      <li id="item">Restful Services w/ Node.js</li>
+                                  </ul>
+                                  -	I am also working on a project with the cloud unit,
+                                  <br/>building on my understand of cloud technologies from my internship: 
+                                  <ul>
+                                      <li id="item">Docker</li>
+                                      <li id="item">Kubernetes</li>
+                                      <li id="item">AWS</li>
+                                  </ul>
+
+                                  <b>TAP AGAIN TO CLOSE</b>
+                                  </div>
+                             
+                              }
                 
-                <div id="bubbles">
+                <div className="bubbles">
                   <p id="textOne">Technical Operations<br/><br/>Sentenial <br/><br/>January 2020 – August 2020</p>
                 </div>
                 
-                <div id="bubbles">
+                <div className="bubbles">
                   <p id="textOne">Construction Laborer/Machine Operator<br/><br/>Bennett Mechanical Installations (2001) Ltd<br/><br/> May 2018 – August 2019</p>
                 </div>
                 
-                <div id="bubbles">
+                <div className="bubbles">
                   <p id="textOne">Urban Planning Internship<br/><br/>Tom Phillips & Associates<br/><br/> May 2016 – August 2016</p>
                 </div>
                 
-                <div id="bubbles">
+                <div className="bubbles">
                   <p id="textOne">Internship - Software Testing<br/><br/>Sentenial<br/><br/> June 2015 – August 2015</p>
                 </div>
                 
-                <div id="bubbles">
+                <div className="bubbles">
                   <p id="textOne">Sales Representative<br/><br/>Astra Marketing <br/><br/> Jan 2015 – May 2015</p>
                 </div>
                 

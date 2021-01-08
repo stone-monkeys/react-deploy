@@ -1,3 +1,8 @@
+body {
+   align-items: center;
+   justify-content: center;
+}
+
 .gallery {
    position: absolute;
    left:10%;
@@ -9,7 +14,7 @@
 
  }
 
-#bubbles, #bubblestwo{
+.bubbles, #bubblestwo{
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
    width: 22vmin;
@@ -17,7 +22,6 @@
    border-radius: 5%;
    list-style-type: none;
    padding:2%;
-
 }
 
 #bubblestwo{
@@ -25,11 +29,10 @@
    left:60%;
    border-radius: 50%;
    text-align: center;
-   
 }
 
 #textOne{
-   font-size:1vw ; 
+   font-size:.8vw ; 
     text-align: center;
 }
 
@@ -37,6 +40,18 @@
    position: relative;
    top:30%;
    font-size:1.2vw ;
+}
+
+#myList{
+   position:fixed;
+   left:65%;
+   width: 50vmin;
+   height: 60vmin;
+   font-size: 180%;
+   color: rgb(196, 164, 164);
+   background-color:rgb(26, 37, 73);
+   padding: 1%;
+   border-radius: 5%;
 }
 
 
@@ -49,8 +64,34 @@
    #textTwo{
       font-size:2vw ; 
    }
+
+   #myList{
+      left:20%;
+      top:65%;
+      font-size: 80%;
+      width: 50vmin;
+      height: 60vmin;
+      color: rgb(196, 164, 164);
+      background-color:rgb(26, 37, 73);
+      padding: 1%;
+   }
 }
-   
+
+
+/********* SUPER EXTRA SMALL DEVICES ONLY ******/
+@media (min-width: 500px) and (max-width: 1400px){
+   #myList{
+      
+      left:20%;
+      top:80%;
+      font-size: 80%;
+      width: 50vmin;
+      height: 60vmin;
+      color: rgb(196, 164, 164);
+      background-color:rgb(26, 37, 73);
+      padding: 1%;
+   }
+}
 
  
  
