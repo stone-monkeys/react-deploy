@@ -42,8 +42,12 @@
 
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
 @media (min-width: 0px) and (max-width: 700px){
-   #textOne, #textTwo{
+   #textOne{
       font-size:1.6vw ; 
+   }
+
+   #textTwo{
+      font-size:2vw ; 
    }
 }
    
