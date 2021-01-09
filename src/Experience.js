@@ -97,7 +97,7 @@ class Experience extends Component {
                   onMouseLeave={this.museLeave}>
                   <p id="textOne">Software Engineer <br/><br/>Fidelity Investments<br/><br/> August 2020 - Present</p>
                 </div>
-                {
+                              {
                                   this.state.isClicked && 
                                   <div id="myList"> 
                                  I am currently participating in Fidelity Investments Leap Software Engineering Track.
@@ -126,11 +126,11 @@ class Experience extends Component {
                               }
                 
                 <div className="bubbles" id="ptwo"
-                  onClick={this.handleClick}>
+                    onClick={this.handleClick}>
                   <p id="textOne">Technical Operations<br/><br/>Sentenial <br/><br/>January 2020 – August 2020</p>
                 </div>
 
-                {
+                        {
                           this.state.isClickedTwo &&
                           <div id="myList"> 
                               <ul>
@@ -167,7 +167,7 @@ class Experience extends Component {
                         }
                 
                 <div className="bubbles" id="pfour"
-            onClick={this.handleClick}>
+                    onClick={this.handleClick}>
                   <p id="textOne">Urban Planning Internship<br/><br/>Tom Phillips & Associates<br/><br/> May 2016 – August 2016</p>
                 </div>
 
@@ -183,7 +183,7 @@ class Experience extends Component {
                         }
                 
                 <div className="bubbles" id="pfive"
-             onClick={this.handleClick}>
+                    onClick={this.handleClick}>
                   <p id="textOne">Internship - Software Testing<br/><br/>Sentenial<br/><br/> June 2015 – August 2015</p>
                 </div>
 
@@ -198,7 +198,7 @@ class Experience extends Component {
                         }
                 
                 <div className="bubbles" id="psix"
-            onClick={this.handleClick}>
+                  onClick={this.handleClick}>
                   <p id="textOne">Sales Representative<br/><br/>Astra Marketing <br/><br/> Jan 2015 – May 2015</p>
                 </div>
 
@@ -213,13 +213,23 @@ class Experience extends Component {
                           </div>
                         }
                 
-                <div id="bubblestwo">
+                <div className="bubblestwo">
                   <p id="textTwo">Click On A Bubble</p>
                 </div>
                 
-                <div id="bubblestwo">
+                <div className="bubblestwo" id="pseven" onClick={this.handleClick}>
                   <p id="textTwo">Licenses</p>
                 </div>
+                        {
+                          this.state.isClickedSeven &&
+                          <div id="myList"> 
+                              <ul>
+                                  <li id="item">Oracle Certified Associate, Java SE 8 Programmer</li>
+                                  <li id="item">AWS Certified Cloud Practitioner</li>
+                              </ul> 
+                              <b>TAP AGAIN TO CLOSE</b>     
+                          </div>
+                        }
               </div>
            </div>
         );

@@ -13,7 +13,7 @@ body {
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.bubbles, #bubblestwo{
+.bubbles, .bubblestwo{
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
    width: 22vmin;
@@ -23,7 +23,7 @@ body {
    padding:2%;
 }
 
-#bubblestwo{
+.bubblestwo{
    position: relative;
    left:60%;
    border-radius: 50%;
@@ -51,10 +51,6 @@ body {
    background-color:rgb(26, 37, 73);
    padding: 1%;
    border-radius: 5%;
-}
-
-#close{
-   color: forestgreen;
 }
 
 
