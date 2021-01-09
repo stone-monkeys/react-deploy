@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Home.js';
 import Dropdown from './Navbar.js'
 import Navbar from './Navbar.js';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {BrowserRouter as Router, HashRouter, Link} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import initFontAwesome from "./initFontAwesome"; 
 
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
 
-      <Router>
+      <HashRouter >
             <div className="app">
             <Navbar></Navbar>
               <Route path="/" exact strict render={
@@ -22,12 +22,7 @@ class App extends Component {
             <div className="homePage">
             
              <Home></Home>
-              
-              
-
-         
-              
-           
+            
 
             </div>);
           }
@@ -35,7 +30,7 @@ class App extends Component {
         
             </div>
         
-      </Router>
+      </HashRouter >
 
     );
   }
