@@ -47,7 +47,14 @@ body {
     }
 
     #name, #occupation{
-      font-size:9vw ;   
+      font-size:9vw ;  
+      opacity: 1;
     }
+
+    #occupation{
+      filter: brightness(150%);
+    }
+
+    
   }
 
