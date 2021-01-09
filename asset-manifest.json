@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdb06b3f.chunk.css",
-    "main.js": "/static/js/main.b460cb7d.chunk.js",
-    "main.js.map": "/static/js/main.b460cb7d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.463ce485.js",
-    "runtime-main.js.map": "/static/js/runtime-main.463ce485.js.map",
-    "static/js/2.777c3833.chunk.js": "/static/js/2.777c3833.chunk.js",
-    "static/js/2.777c3833.chunk.js.map": "/static/js/2.777c3833.chunk.js.map",
-    "static/js/3.3d630e4f.chunk.js": "/static/js/3.3d630e4f.chunk.js",
-    "static/js/3.3d630e4f.chunk.js.map": "/static/js/3.3d630e4f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.fdb06b3f.chunk.css.map": "/static/css/main.fdb06b3f.chunk.css.map",
-    "static/js/2.777c3833.chunk.js.LICENSE.txt": "/static/js/2.777c3833.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/static/media/Me_Two.087935f0.jpg",
-    "static/media/App.css": "/static/media/Toronto.a860dbe9.jpg"
+    "main.css": "/react-deploy/static/css/main.30a5a54d.chunk.css",
+    "main.js": "/react-deploy/static/js/main.b3800fe2.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.b3800fe2.chunk.js.map",
+    "runtime-main.js": "/react-deploy/static/js/runtime-main.d6998322.js",
+    "runtime-main.js.map": "/react-deploy/static/js/runtime-main.d6998322.js.map",
+    "static/js/2.03d582f5.chunk.js": "/react-deploy/static/js/2.03d582f5.chunk.js",
+    "static/js/2.03d582f5.chunk.js.map": "/react-deploy/static/js/2.03d582f5.chunk.js.map",
+    "static/js/3.3d630e4f.chunk.js": "/react-deploy/static/js/3.3d630e4f.chunk.js",
+    "static/js/3.3d630e4f.chunk.js.map": "/react-deploy/static/js/3.3d630e4f.chunk.js.map",
+    "index.html": "/react-deploy/index.html",
+    "static/css/main.30a5a54d.chunk.css.map": "/react-deploy/static/css/main.30a5a54d.chunk.css.map",
+    "static/js/2.03d582f5.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.03d582f5.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/react-deploy/static/media/Me_Two.087935f0.jpg",
+    "static/media/App.css": "/react-deploy/static/media/Toronto.a860dbe9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.463ce485.js",
-    "static/js/2.777c3833.chunk.js",
-    "static/css/main.fdb06b3f.chunk.css",
-    "static/js/main.b460cb7d.chunk.js"
+    "static/js/runtime-main.d6998322.js",
+    "static/js/2.03d582f5.chunk.js",
+    "static/css/main.30a5a54d.chunk.css",
+    "static/js/main.b3800fe2.chunk.js"
   ]
 }
