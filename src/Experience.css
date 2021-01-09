@@ -85,17 +85,17 @@ body {
     }
 
     #textOne{
-      font-size: 2vw; 
+      font-size: 1vw; 
    }
 
    #textTwo{
-      font-size:2vw ; 
+      font-size:1vw ; 
    }
    
    #myList{
       left:10%;
       top:70%;
-       font-size: 1.5vw;
+      font-size: 1.5vw;
       width: 80vmin;
       height: 35vmin;
       color: rgb(196, 164, 164);
