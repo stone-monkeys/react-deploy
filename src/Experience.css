@@ -77,8 +77,8 @@ body {
 }
 
 
-/********* SUPER EXTRA SMALL DEVICES ONLY ******/
-@media (min-width: 501px) and (max-width: 1400px){
+/********* SMALL DEVICES ONLY ******/
+@media (min-width: 501px) and (max-width: 1200px){
    
    .gallery {
       top:13%;
@@ -104,6 +104,12 @@ body {
    }
 }
 
+/********* Medium DEVICES ONLY ******/
+@media (min-width: 1200px) and (max-width: 1500px){
+   .gallery{
+      top:24%;
+   }
+}
  
  
 
