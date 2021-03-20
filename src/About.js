@@ -26,24 +26,19 @@ class About extends Component {
                             Here I developed a strong interest in the application of technology in the urban realm, 
                             in particular its use in solving human-centric problems. 
                             My thesis sought to identify the extent in which digital platforms can be used in cities with regard to optimising the use of space, by enabling the 
-                            efficient use of idle assets.  I am very passionate about systems of interrelated devices that have the ability to transfer data over a network with no human intervention ie - IoT.
+                            efficient use of idle assets. I am very passionate about systems of interrelated devices that have the ability to transfer data over a network with no human intervention ie - IoT.
                             I am also very interested in learning and applying how The Cloud can pave the way for this data to travel.
                         </p>
 
                         <p id="pone">
-                            After graduating from university in 2018, I took a gap year and moved back to Toronto 
-                            (I also studied there for a year in 2016/17). As planned, I then returned to Ireland to undertake a post-grad in 
-                            Software Development. Throughout this I got some work with a Technical-Operations team where
-                            developed a passion for the Cloud & the DevOps space.
-                            I then joined Fidelity Investments as a Software Engineering Associate. 
-                          
+                            Here, I work with in a cloud computing unit with cutting edge technology on exciting projects.
+                            Our aim is to build automated pipelines for a seamless integration with the cloud for our Devs.
+                            In doing so, we enable the Devs to focus above the value line (What we Deliver to our Customers) and 
+                            focus on the most complex aspects of the application.
                         </p>
 
                         <p id="pone">
-                            Here, I work with in a cloud computing unit with cutting edge technology on exciting projects 😄.
-                            Our aim is to build automated pipelines for a seamless integration with the cloud for our Devs.
-                            In doing so, we enable the Devs to focus above the value line (What we Deliver to our Customers) and 
-                            focus on the most complex aspects of the application
+                        Tools that I am currently learning and harnessing to implement solutions include Kubernetes, Docker, Golang, Skaffold to name a few 😄. I strive for best practice in my field and I am look forward to exploring how best practices in the DevOps space can be harnessed to implement revolutionary technolocial solutions.
                         </p>
                         
                        
