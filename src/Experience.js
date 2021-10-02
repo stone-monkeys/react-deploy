@@ -127,7 +127,7 @@ class Experience extends Component {
                 
                 <div className="bubbles" id="ptwo"
                     onClick={this.handleClick}>
-                  <p id="textOne">Technical Operations<br/><br/>Sentenial <br/><br/>January 2020 – August 2020</p>
+                  <p id="textOne">Technical Operations<br/><br/>Sentenial <br/><br/>September 2019 – August 2020</p>
                 </div>
 
                         {
