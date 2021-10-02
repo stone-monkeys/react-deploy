@@ -12,8 +12,6 @@ initFontAwesome();
 class App extends Component {
   render() {
     return (
-
-      
             <div className="app">
               
               <HashRouter basename={process.env.PUBLIC_URL}>
@@ -24,9 +22,6 @@ class App extends Component {
                 </Switch>
               </HashRouter>
             </div>
-
-      
-
     );
   }
 }

@@ -5,19 +5,20 @@ body {
 
 .gallery {
    position: absolute;
-   left:10%;
+   left:14%;
    top:20%;
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 5% 10%;
+   grid-template-columns: 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr; 
+   gap: 20% 20%; 
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .bubbles, .bubblestwo{
    color: rgb(196, 164, 164);
    background-color:rgb(26, 37, 73);
-   width: 22vmin;
-   height: 22vmin;
+   width: 30vmin;
+   height: 25vmin;
    border-radius: 5%;
    list-style-type: none;
    padding:2%;
@@ -31,48 +32,37 @@ body {
 }
 
 #textOne{
-   font-size:.8vw ; 
-    text-align: center;
+   font-size:1.1vw ; 
+   text-align: center;
 }
-
-#textTwo{
-   position: relative;
-   top:30%;
-   font-size:1.2vw ;
-}
-
-#myList{
-   position:fixed;
-   left:65%;
-   width: 50vmin;
-   height: 60vmin;
-   font-size: 1.05vw;
-   color: rgb(196, 164, 164);
-   background-color:rgb(26, 37, 73);
-   padding: 1%;
-   border-radius: 5%;
-}
-
 
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
 @media (min-width: 0px) and (max-width: 500px){
+   
+   .gallery{
+      position: absolute;
+      left:10%;
+      top:20%;
+      display: grid;
+      vertical-align:bottom;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20% 20%; 
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
    #textOne{
-      font-size:1.6vw ; 
+      font-size:2.3vw ; 
+      line-height: 150%;
    }
 
-   #textTwo{
-      font-size:2vw ; 
-   }
-
-   #myList{
-      left:17%;
-      top:65%;
-      font-size: 2.3vw;
-      width: 65vmin;
-      height: 60vmin;
+   .bubbles{
       color: rgb(196, 164, 164);
       background-color:rgb(26, 37, 73);
-      padding: 1%;
+      width: 32vmin;
+      height: 30vmin;
+      border-radius: 5%;
+      list-style-type: none;
+      padding:2%;
    }
 }
 
@@ -81,33 +71,43 @@ body {
 @media (min-width: 501px) and (max-width: 1200px){
    
    .gallery {
-      top:13%;
+      position: absolute;
+      
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 10% 20%; 
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     #textOne{
-      font-size: 1vw; 
+      position: relative;
+      font-size:1.9vw;
+      line-height: 150%;  
    }
 
-   #textTwo{
-      font-size:1vw ; 
-   }
-   
-   #myList{
-      left:10%;
-      top:70%;
-      font-size: 1.5vw;
-      width: 80vmin;
-      height: 35vmin;
+   .bubbles{
       color: rgb(196, 164, 164);
       background-color:rgb(26, 37, 73);
-      padding: 1%;
+      width: 25vmin;
+      height: 25vmin;
+      border-radius: 5%;
+      list-style-type: none;
+      padding:5%;
    }
 }
 
 /********* Medium DEVICES ONLY ******/
 @media (min-width: 1200px) and (max-width: 1500px){
    .gallery{
-      top:24%;
+      left:21%;
+      top:22%;
+      gap: 20% 20%;   
+   }
+   
+   .bubbles{
+      width: 30vmin;
+      height: 25vmin;
+      padding:1.2%;
    }
 }
  

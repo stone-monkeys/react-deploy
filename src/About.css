@@ -1,6 +1,7 @@
 body {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .aboutMe{
@@ -13,7 +14,7 @@ body {
     padding: 1%;
     border-radius: 5%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.7vh;
+    font-size: 1.9vh;
 }
 
 /********* SUPER EXTRA SMALL DEVICES ONLY ******/
@@ -30,7 +31,24 @@ body {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1.7vh;
     }    
-  }
+}
+
+/********* SMALL DEVICES ONLY ******/
+@media (min-width: 501px) and (max-width: 1200px){
+    .aboutMe{
+        margin: auto;
+        width: 60vmin;
+        text-align: center;
+        height: 100vmin;
+        color: rgb(196, 164, 164);
+        margin-top: 5%;
+        background-color:rgb(26, 37, 73);
+        padding: 1%;
+        border-radius: 5%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.9vh;
+    }
+ }
 
 
 

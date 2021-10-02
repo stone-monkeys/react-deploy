@@ -31,14 +31,9 @@ class About extends Component {
                         </p>
 
                         <p id="pone">
-                            Here, I work with in a cloud computing unit with cutting edge technology on exciting projects.
-                            Our aim is to build automated pipelines for a seamless integration with the cloud for our Devs.
-                            In doing so, we enable the Devs to focus above the value line (What we Deliver to our Customers) and 
-                            focus on the most complex aspects of the application.
-                        </p>
-
-                        <p id="pone">
-                        Tools that I am currently learning and harnessing to implement solutions include Kubernetes, Docker, Golang, Skaffold to name a few 😄. I strive for best practice in my field and I am look forward to exploring how best practices in the DevOps space can be harnessed to implement revolutionary technolocial solutions.
+                        At Fidelity I work for the DevOps Integration and Experience Squad. Our aim is to build automated pipelines for a seamless integration with the cloud for our Devs. 
+                        In doing so, we enable the Devs to focus above the value line (What we Deliver to our Customers) and focus on the most complex aspects of the application.
+                        I strive for best practice in my field and I am look forward to exploring how best practices in the DevOps space can be harnessed to implement revolutionary technolocial solutions.
                         </p>
                         
                        
