@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import './Experience.css';
-import $ from 'jquery';
 
 
 class Experience extends Component {
@@ -163,53 +162,6 @@ class Experience extends Component {
                                   <li id="item">Worked as part of a team upgrading a major water reservoir in downtown Toronto</li>
                               </ul> 
                               <b>TAP AGAIN TO CLOSE</b>     
-                          </div>
-                        }
-                
-                <div className="bubbles" id="pfour"
-                    onClick={this.handleClick}>
-                  <p id="textOne">Urban Planning Internship<br/><br/>Tom Phillips & Associates<br/><br/> May 2016 – August 2016</p>
-                </div>
-
-                        {
-                          this.state.isClickedFour &&
-                          <div id="myList"> 
-                              <ul>
-                                  <li id="item">Conducting extensive research in specific or general project areas</li>
-                                  <li id="item">Write and present formal technical reports on project areas</li>
-                              </ul>   
-                              <b>TAP AGAIN TO CLOSE</b>   
-                          </div>
-                        }
-                
-                <div className="bubbles" id="pfive"
-                    onClick={this.handleClick}>
-                  <p id="textOne">Internship - Software Testing<br/><br/>Sentenial<br/><br/> June 2015 – August 2015</p>
-                </div>
-
-                        {
-                          this.state.isClickedFive &&
-                          <div id="myList"> 
-                              <ul>
-                                  <li id="item">Identified ways to optimize the software to make it more efficient </li>
-                              </ul>  
-                              <b>TAP AGAIN TO CLOSE</b>    
-                          </div>
-                        }
-                
-                <div className="bubbles" id="psix"
-                  onClick={this.handleClick}>
-                  <p id="textOne">Sales Representative<br/><br/>Astra Marketing <br/><br/> Jan 2015 – May 2015</p>
-                </div>
-
-                        {
-                          this.state.isClickedSix &&
-                          <div id="myList"> 
-                              <ul>
-                                  <li id="item">Proactively sought new business opportunities in existing and potential business accounts </li>
-                                  <li id="item">Maintained and grew the market share within a specific sales territory </li>
-                              </ul> 
-                              <b id="close">TAP AGAIN TO CLOSE</b>     
                           </div>
                         }
                 
