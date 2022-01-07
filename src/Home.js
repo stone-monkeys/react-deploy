@@ -8,29 +8,15 @@ import Navbar from './Navbar.js';
 
 class Home extends Component {
 
-  
   render() {
     return (
-      
-            <div className="app">
-              
-          
-            <div className="homePage">
-            
-              <div id="profile-photo"></div>
-              
-              <div id="name">Derry Bradley</div>
-              <div id="occupation">Software Engineer</div> 
-             
-            </div>
-          
-        
-        
-            </div>
-        
-     
-        
-  
+      <div className="app">
+        <div className="homePage">
+          <div id="profile-photo"></div>
+            <div id="name">Derry Bradley</div>
+              <div id="occupation">Solutions/Software Engineer</div> 
+        </div>
+      </div>
     );
   }
 }
