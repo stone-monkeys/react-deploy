@@ -12,7 +12,7 @@ class About extends Component {
            <div className="app">
                <div className="aboutMe">              
                     <p id="pone">
-                        Hi! I’m Derry, and I'm a Solutions Engineer Working at CircleCI. In a previous life I was a Software Engineer working with the Cloud Computing unit in Fidelity Investments. 
+                        Hi! I’m Derry, and I'm a Solutions Engineer Working at CircleCI. In a previous life, I was a Software Engineer working with the Cloud Computing unit in Fidelity Investments. 
                         As an Under-Grad, I studied Geography(Urbanization) & Economics at Maynooth University.
                     </p>
                     <p id="pone"> 
@@ -23,8 +23,8 @@ class About extends Component {
                         I am also very interested in learning and applying how The Cloud can pave the way for this data to travel.
                     </p>
                     <p id="pone">
-                        At Fidelity I work for the DevOps Integration and Experience Squad. Our aim is to build automated pipelines for a seamless integration with the cloud for our Devs. 
-                        In doing so, we enable the Devs to focus above the value line (What we Deliver to our Customers) and focus on the most complex aspects of the application.
+                        I worked for the DevOps teams in the past and now @CircleCI, our aim was to build automated pipelines to create a seamless deployment process for our customers. 
+                        In doing so, we enable Engineers to focus above the value line (What they deliver to their customers) and focus on the most complex aspects of the application.
                         I strive for best practice in my field and I am look forward to exploring how best practices in the DevOps space can be harnessed to implement revolutionary technolocial solutions.
                     </p>
                 </div>

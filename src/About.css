@@ -37,9 +37,9 @@ body {
 @media (min-width: 501px) and (max-width: 1200px){
     .aboutMe{
         margin: auto;
-        width: 60vmin;
+        width: 80vmin;
         text-align: center;
-        height: 100vmin;
+        height: 90vmin;
         color: rgb(196, 164, 164);
         margin-top: 5%;
         background-color:rgb(26, 37, 73);
