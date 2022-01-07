@@ -18,7 +18,7 @@ class About extends Component {
                <div className="aboutMe"> 
                
                         <p id="pone">
-                            Hi! I’m Derry and I am a Software Engineer working with the Cloud Computing unit in Fidelity Investments. 
+                            Hi! I’m  and I am a Software Engineer working with the Cloud Computing unit in Fidelity Investments. 
                             As an Under-Grad, I studied Geography(Urbanization) & Economics at Maynooth University.
                         </p>
                             
