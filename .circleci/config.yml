@@ -17,7 +17,16 @@ jobs:
     working_directory: ~/repo
     
     steps:
-      - run: echo build step
+      - run: echo test step
+
+  deploy:
+    docker:
+      - image: cimg/base:stable
+    
+    working_directory: ~/repo
+    
+    steps:
+      - run: echo deploy step      
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -29,4 +38,7 @@ workflows:
       - test:
           requires: 
             - build  
+      - deploy:
+          requires: 
+            - test  
 
